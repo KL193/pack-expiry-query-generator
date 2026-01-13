@@ -20,5 +20,5 @@ WHERE LOWER(JSON_UNQUOTE(JSON_EXTRACT(pack_definitions, "$.endDate"))) = "{end_d
 LIMIT 250;
 '''
 
-print("Auto-generated End Date:", end_date)
+print("Auto generated End Date is :", end_date)
 print(query)
